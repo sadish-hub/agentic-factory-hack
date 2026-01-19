@@ -83,8 +83,7 @@ public sealed class TextOnlyAgentExecutor : Executor<string, string>
                                     Arguments = SerializeArguments(mcp.Arguments)
                                 });
                             }
-                            else if (content is A2A.A2AEvent)
-                            else if (content is FunctionCallContent fcc)
+                           else if (content is FunctionCallContent fcc)
                             {
                                 agentStep.ToolCalls.Add(new ToolCallInfo
                                 {
