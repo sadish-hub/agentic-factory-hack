@@ -471,11 +471,15 @@ Verify the answer from the agent.
 > [!NOTE]
 > Finished early? These tasks are **optional** extras for exploration. Feel free to move on to the next challenge — you can always come back later!
 
-### Experiment with prompts
+<details>
+<summary>Experiment with prompts</summary>
 
 Try modifying the system instructions in [anomaly_classification_agent_mcp.py](./agents/anomaly_classification_agent_mcp.py) or [fault_diagnosis_agent.py](./agents/fault_diagnosis_agent.py). Observe how different phrasings affect the agent's responses — this is practical prompt engineering in action.
 
-### Test edge cases in the playground
+</details>
+
+<details>
+<summary>Test edge cases in the playground</summary>
 
 Use the **Foundry Portal** playground to test boundary conditions:
 - Non-existent machines (e.g., `machine-999`)
@@ -483,12 +487,17 @@ Use the **Foundry Portal** playground to test boundary conditions:
 - Invalid or malformed input data
 - Multiple anomalies at once
 
-### Add a new wiki article
+</details>
+
+<details>
+<summary>Add a new wiki article</summary>
 
 1. Create a new markdown file for a machine type (e.g., copy and modify an existing article)
 2. Upload it to the `machine-wiki` container in **Azure Blob Storage**
 3. Re-run the indexer to include the new content
 4. Test retrieval with the **Fault Diagnosis Agent**
+
+</details>
 
 ## 🛠️ Troubleshooting and FAQ
 

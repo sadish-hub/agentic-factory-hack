@@ -372,6 +372,9 @@ dotnet run
 > [!NOTE]
 > Finished early? These tasks are **optional** extras for exploration. Feel free to move on to the next challenge — you can always come back later!
 
+<details>
+<summary>Enhance the Repair Planner Agent</summary>
+
 Once the basic agent works, try adding:
 
 ```
@@ -387,7 +390,10 @@ Add structured output using `AIJsonUtilities.CreateJsonSchema`
 and `ChatResponseFormat.ForJsonSchema` for type-safe responses
 ```
 
-### Add an MCP server to GitHub Copilot
+</details>
+
+<details>
+<summary>Add an MCP server to GitHub Copilot</summary>
 
 In Challenge 1, you saw how agents in **Azure AI Foundry Agent Service** can use MCP tools. **GitHub Copilot** in VS Code also supports MCP servers, letting you extend Copilot's capabilities with custom tools.
 
@@ -415,7 +421,10 @@ This creates a `.vscode/mcp.json` file with the following configuration:
 
 In **GitHub Copilot Chat**, you can now ask questions that leverage **Microsoft Learn** documentation—useful for questions about Azure services, .NET APIs, and other Microsoft technologies.
 
-### Create your own custom GitHub Copilot agent
+</details>
+
+<details>
+<summary>Create your own custom GitHub Copilot agent</summary>
 
 In this challenge you used the `agentplanning` agent—a custom **GitHub Copilot** agent defined in `.github/agents/agentplanning.agent.md`. Try creating your own custom agent with a specific persona!
 
@@ -438,6 +447,8 @@ Here are two agent personas that would be useful in this hackathon:
 - Example prompt to handle: "Write a query to find all technicians with bearing_replacement skill who are available"
 
 See [Custom agents in VS Code](https://code.visualstudio.com/docs/copilot/customization/custom-agents) for detailed documentation on creating custom agents.
+
+</details>
 
 ## 🛠️ Troubleshooting and FAQ
 

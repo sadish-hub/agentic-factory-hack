@@ -405,21 +405,28 @@ This will open **Application Insights** where you will see similar monitoring de
 > [!NOTE]
 > Finished early? These tasks are **optional** extras for exploration. Feel free to move on to the next challenge — you can always come back later!
 
-### Customize the scheduling logic
+<details>
+<summary>Customize the scheduling logic</summary>
 
 Modify the **Maintenance Scheduler Agent** prompt in `maintenance_scheduler_agent.py` to adjust how it calculates risk scores. Try:
 - Weighting recent failures more heavily than older ones
 - Adding urgency modifiers based on machine criticality
 - Incorporating seasonal production patterns (e.g., higher thresholds during peak periods)
 
-### Add supplier scoring
+</details>
+
+<details>
+<summary>Add supplier scoring</summary>
 
 Enhance the **Parts Ordering Agent** to track supplier performance over time:
 - Add a `reliability_score` field to supplier records
 - Update scores based on on-time delivery rates
 - Factor historical performance into supplier selection
 
-### Create custom Kusto queries
+</details>
+
+<details>
+<summary>Create custom Kusto queries</summary>
 
 Write custom queries in **Application Insights** to analyze agent behavior:
 - Calculate average response time per agent
@@ -427,14 +434,20 @@ Write custom queries in **Application Insights** to analyze agent behavior:
 - Track token usage trends over time
 - Alert on agents that exceed cost thresholds
 
-### Implement memory expiration
+</details>
+
+<details>
+<summary>Implement memory expiration</summary>
 
 The current agent memory stores all conversation history indefinitely. Add logic to:
 - Expire conversations older than 30 days
 - Summarize old conversations instead of keeping full history
 - Limit memory to the most recent N interactions per entity
 
-### Test failure scenarios
+</details>
+
+<details>
+<summary>Test failure scenarios</summary>
 
 Explore how the agents handle edge cases:
 - Work orders with no available maintenance windows
@@ -442,6 +455,7 @@ Explore how the agents handle edge cases:
 - Machines with no maintenance history
 - Extremely high-priority orders that need immediate scheduling
 
+</details>
 
 ## 🛠️ Troubleshooting and FAQ
 

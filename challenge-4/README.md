@@ -185,7 +185,8 @@ The dashboard will start in your browser and show the resources.
 > [!NOTE]
 > Finished early? These tasks are **optional** extras for exploration.
 
-### Deploy to Azure Container Apps
+<details>
+<summary>Deploy to Azure Container Apps</summary>
 
 In this challenge we ran Aspire locally for development, but the same pattern can be deployed as a hosted application. The lab environment includes both an **Azure Container Registry** and a **Container Apps Environment**.
 
@@ -196,7 +197,10 @@ Try packaging the workflow host + frontend and deploying it:
 3. Deploy to **Azure Container Apps**
 4. Configure environment variables for the deployed services
 
-### Explore the Aspire dashboard traces
+</details>
+
+<details>
+<summary>Explore the Aspire dashboard traces</summary>
 
 The Aspire dashboard provides detailed distributed traces. Try:
 
@@ -204,13 +208,18 @@ The Aspire dashboard provides detailed distributed traces. Try:
 - Following a request through multiple services
 - Identifying bottlenecks in agent invocations
 
-### Add custom telemetry
+</details>
+
+<details>
+<summary>Add custom telemetry</summary>
 
 Extend the workflow with custom telemetry:
 
 - Add custom metrics for agent response times
 - Create custom spans for specific operations
 - Export traces to **Application Insights**
+
+</details>
 
 ## 🛠️ Troubleshooting and FAQ
 
