@@ -174,7 +174,7 @@ Please select your forked repository from the dropdown and, if necessary, adjust
 ⏱️ Initial creation of the Codespace takes approximately 10 minutes
 
 > [!TIP]
-> While you are waiting for the creation to complete, take some time to familiarize yourself with the [hackathon scenario](../README.md#scenario) and [architecture](../README.md#architecture).
+> While you are waiting for the Codespace creation to complete, take some time to familiarize yourself with the [hackathon scenario](../README.md#scenario) and [architecture](../README.md#architecture).
 
 ---
 
